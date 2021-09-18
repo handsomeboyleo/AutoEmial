@@ -1,0 +1,2 @@
+# AutoEmial
+send email automatic
