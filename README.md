@@ -2,7 +2,7 @@
 
 send email automatic
 
-## this is a script for auto send email with MJML template
+## a script for auto send email with MJML template
 
 ### 1.check email user and smtp code
 
