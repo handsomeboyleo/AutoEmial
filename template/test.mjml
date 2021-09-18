@@ -1,0 +1,33 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Test Email</mj-title>
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-text font-family="'Segoe UI', Microsoft YaHei, Arial, Helvetica, sans-serif" font-size="16px" line-height="24px" />
+      <mj-class name="hi" font-weight="600" font-size="18px" color="#1a1a1a" />
+      <mj-class name="text" color="#333333" />
+      <mj-button font-size="15px" width="180px" align="left" padding="32px 0 20px 0" background-color="transparent" />
+    </mj-attributes>
+    <mj-style>
+      .header {
+        background-image: linear-gradient(270deg, #E8EDFF 10%, #ECEEFF 75%) !important;
+      }
+      .button td {
+        background-image: linear-gradient(-90deg, #455EEF 0%, #3D97EB 100%) !important;
+        background-color: #364aba !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="800px">
+    <mj-section>
+      <mj-column padding="32px 0 0 32px">
+        <mj-text mj-class="hi">hello,{{user}}</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column padding="16px 0 0 32px">
+        <mj-text mj-class="text">{{data}}</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

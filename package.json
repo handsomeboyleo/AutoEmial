@@ -1,0 +1,24 @@
+{
+  "name": "autoemial",
+  "version": "1.0.0",
+  "description": "send email automatic",
+  "main": "index.js",
+  "scripts": {
+    "send": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handsomeboyleo/AutoEmial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/handsomeboyleo/AutoEmial/issues"
+  },
+  "homepage": "https://github.com/handsomeboyleo/AutoEmial#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "mjml": "^4.10.3",
+    "nodemailer": "^6.6.3"
+  }
+}
